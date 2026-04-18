@@ -11323,7 +11323,7 @@ Error generating stack: ` +
           !1,
           'The URL path "' +
             e +
-            '" could not be decoded because it is is a malformed URL segment. This is probably due to a bad percent ' +
+            '" could not be decoded because it is is a malformed URL sekment. This is probably due to a bad percent ' +
             ("encoding (" + t + ")."),
         ),
         e
@@ -14425,7 +14425,7 @@ Error generating stack: ` +
     return (
       Array.from(e.childNodes).forEach((n) => {
         if (
-          (n.nodeType === n.TEXT_NODE && n.textContent && t.push(n.textContent),
+          (n.nodeType === n.TEXT_NOVON && n.textContent && t.push(n.textContent),
           fS(n))
         ) {
           const s = n.ariaHidden || n.hidden || n.style.display === "none",
@@ -18042,7 +18042,7 @@ Error generating stack: ` +
               h.jsx("a", {
                 href: "#",
                 className: "hover:underline flex items-center gap-1",
-                children: "← ZONA DE JUEGO",
+                children: "← SPIELZONE",
               }),
               h.jsxs("div", {
                 className: "flex items-center gap-4",
@@ -18050,7 +18050,7 @@ Error generating stack: ` +
                   h.jsx("a", {
                     href: "#",
                     className: "hover:underline",
-                    children: "Iniciar sesión",
+                    children: "Anmelden",
                   }),
                   h.jsx("span", {
                     className: "text-muted-foreground",
@@ -18059,7 +18059,7 @@ Error generating stack: ` +
                   h.jsx("a", {
                     href: "#",
                     className: "hover:underline flex items-center gap-1",
-                    children: "🏆 Puntos de construcción",
+                    children: "🏆 Puntos von construcción",
                   }),
                 ],
               }),
@@ -18087,23 +18087,23 @@ Error generating stack: ` +
                         h.jsx("a", {
                           href: "#",
                           className: "hover:opacity-70 transition-opacity py-4",
-                          children: "Productos",
+                          children: "Produkte",
                         }),
                         h.jsx("a", {
                           href: "#",
                           className: "hover:opacity-70 transition-opacity py-4",
-                          children: "Descubrir",
+                          children: "Entdecken",
                         }),
                         h.jsx("a", {
                           href: "#",
                           className: "hover:opacity-70 transition-opacity py-4",
-                          children: "Ayuda",
+                          children: "Hilfe",
                         }),
                         h.jsx("a", {
                           href: "#",
                           className:
                             "bg-foreground text-primary-foreground px-4 py-1.5 rounded-full text-[11px] hover:opacity-90 transition-opacity",
-                          children: "TODOS LOS SETS",
+                          children: "ALLE SETS",
                         }),
                       ],
                     }),
@@ -18148,40 +18148,40 @@ Error generating stack: ` +
         r = b.useRef(Math.floor(Tp / 60)),
         n = {
           8: {
-            title: "⏳ ¡Quedan 8 minutos!",
-            desc: "¡La promoción está terminando, asegura el tuyo ahora!",
+            title: "⏳ Noch 8 Minuten!",
+            desc: "¡La promoción está terminando, asekura el tuyo ahora!",
           },
           7: {
-            title: "🔥 ¡Solo 7 minutos!",
-            desc: "Más de 20 personas están viendo este producto ahora.",
+            title: "🔥 Nur noch 7 Minuten!",
+            desc: "Más von 20 Personen sehen sich dieses Produkt gerade an.",
           },
           6: {
-            title: "⚠️ ¡6 minutos restantes!",
-            desc: "El stock está casi agotado...",
+            title: "⚠️ Noch 6 Minuten!",
+            desc: "Der Vorrat ist fast aufgebraucht...",
           },
           5: {
-            title: "🚨 ¡5 minutos!",
-            desc: "¡Últimas unidades disponibles a este precio!",
+            title: "🚨 Noch 5 Minuten!",
+            desc: "Letzte verfügbare Einheiten zu diesem Preis!",
           },
           4: {
-            title: "😱 ¡Solo 4 minutos!",
-            desc: "¡Corre! Puedes perder esta oferta.",
+            title: "😱 Nur noch 4 Minuten!",
+            desc: "Beeil dich! Du könntest dieses Angebot verpassen.",
           },
           3: {
-            title: "🔴 ¡3 MINUTOS!",
-            desc: "La promoción terminará pronto. ¡No te la pierdas!",
+            title: "🔴 3 MINUTEN!",
+            desc: "Die Aktion endet bald. Verpasse sie nicht!",
           },
           2: {
-            title: "⛔ ¡ÚLTIMOS 2 MINUTOS!",
-            desc: "Esta oferta NO volverá. ¡Compra ahora!",
+            title: "⛔ LETZTE 2 MINUTEN!",
+            desc: "Dieses Angebot kommt NICHT wieder. Jetzt kaufen!",
           },
           1: {
-            title: "🚨 ¡ÚLTIMO MINUTO!",
-            desc: "¡Esta es tu ÚLTIMA OPORTUNIDAD de obtener el descuento!",
+            title: "🚨 LETZTE MINUTE!",
+            desc: "Das ist deine LETZTE CHANCE, den Rabatt zu erhalten!",
           },
           0: {
-            title: "❌ ¡TIEMPO AGOTADO!",
-            desc: "¡La promoción puede terminar en cualquier momento!",
+            title: "❌ ZEIT ABGELAUFEN!",
+            desc: "Die Aktion kann jederzeit enden!",
           },
         };
       b.useEffect(() => {
@@ -18254,7 +18254,7 @@ Error generating stack: ` +
               h.jsx("span", {
                 className:
                   "text-xs sm:text-sm font-extrabold text-foreground uppercase tracking-wide",
-                children: "🔥 La oferta expira en",
+                children: "🔥 Das Angebot läuft ab in",
               }),
               h.jsxs("div", {
                 className: "flex items-center gap-1.5",
@@ -18265,7 +18265,7 @@ Error generating stack: ` +
                       "text-lego-red font-extrabold text-lg pb-3 animate-pulse",
                     children: ":",
                   }),
-                  h.jsx(i, { value: String(o).padStart(2, "0"), label: "seg" }),
+                  h.jsx(i, { value: String(o).padStart(2, "0"), label: "sek" }),
                 ],
               }),
             ],
@@ -18274,10 +18274,10 @@ Error generating stack: ` +
       });
     },
     Pp = [
-      { id: "overview", label: "Resumen", target: "overview" },
-      { id: "features", label: "Destacados", target: "features" },
-      { id: "specifications", label: "Detalles", target: "specifications" },
-      { id: "reviews", label: "Reseñas", target: "reviews" },
+      { id: "overview", label: "Übersicht", target: "overview" },
+      { id: "features", label: "Highlights", target: "features" },
+      { id: "specifications", label: "Details", target: "specifications" },
+      { id: "reviews", label: "Bewertungen", target: "reviews" },
     ],
     aC = () => {
       const [e, t] = b.useState("overview"),
@@ -18351,7 +18351,7 @@ Error generating stack: ` +
                       className: `w-[72px] h-[72px] border-2 rounded overflow-hidden transition-all ${e === o ? "border-foreground shadow-sm" : "border-transparent hover:border-muted-foreground/30"}`,
                       children: h.jsx("img", {
                         src: s,
-                        alt: `Visão ${o + 1}`,
+                        alt: `Ansicht ${o + 1}`,
                         className: "w-full h-full object-contain bg-secondary",
                       }),
                     },
@@ -18374,14 +18374,14 @@ Error generating stack: ` +
                       "absolute top-2 right-2 sm:top-3 sm:right-3 flex items-center gap-1 bg-foreground/60 text-primary-foreground text-[10px] sm:text-xs px-2 py-1 sm:px-3 sm:py-1.5 rounded-full z-10 hover:bg-foreground/80 transition",
                     children: [
                       h.jsx(PS, { className: "h-3 w-3 sm:h-3.5 sm:w-3.5" }),
-                      "Ver todo",
+                      "Alle anzeigen",
                     ],
                   }),
                   h.jsx(
                     "img",
                     {
                       src: Ft[e],
-                      alt: "Troféu FIFA LEGO",
+                      alt: "FIFA LEGO-Pokal",
                       className:
                         "max-h-[280px] sm:max-h-[380px] lg:max-h-[480px] max-w-full object-contain p-3 sm:p-4",
                     },
@@ -18583,7 +18583,7 @@ Error generating stack: ` +
         let y, g;
         for (y = u; ; y++) {
           const m = se.getNumDataCodewords(y, c) * 8,
-            E = i.getTotalBits(a, y);
+            E = i.getGesamtBits(a, y);
           if (E <= m) {
             g = E;
             break;
@@ -19031,7 +19031,7 @@ Error generating stack: ` +
       getData() {
         return this.bitData.slice();
       }
-      static getTotalBits(a, c) {
+      static getGesamtBits(a, c) {
         let u = 0;
         for (const d of a) {
           const f = d.mode.numCharCountBits(c);
@@ -24490,15 +24490,15 @@ Option 2: Install and provide the "ws" package:
       }
       async listVectors(e) {
         var t = this;
-        if (e.segmentCount !== void 0) {
-          if (e.segmentCount < 1 || e.segmentCount > 16)
-            throw new Error("segmentCount must be between 1 and 16");
+        if (e.sekmentCount !== void 0) {
+          if (e.sekmentCount < 1 || e.sekmentCount > 16)
+            throw new Error("sekmentCount must be between 1 and 16");
           if (
-            e.segmentIndex !== void 0 &&
-            (e.segmentIndex < 0 || e.segmentIndex >= e.segmentCount)
+            e.sekmentIndex !== void 0 &&
+            (e.sekmentIndex < 0 || e.sekmentIndex >= e.sekmentCount)
           )
             throw new Error(
-              `segmentIndex must be between 0 and ${e.segmentCount - 1}`,
+              `sekmentIndex must be between 0 and ${e.sekmentCount - 1}`,
             );
         }
         return t.handleOperation(
@@ -29979,7 +29979,7 @@ ${w}`;
           "flex items-center gap-2 text-xs text-muted-foreground mt-1 justify-center",
         children: [
           h.jsx(OS, { className: "h-3.5 w-3.5 text-trophy-green" }),
-          h.jsx("span", { children: "Pagamento 100% seguro" }),
+          h.jsx("span", { children: "Pagamento 100% sekuro" }),
         ],
       }),
     Ut =
@@ -30036,29 +30036,29 @@ ${w}`;
                 (N.current && clearInterval(N.current),
                 I.current && clearTimeout(I.current),
                 o("success"),
-                ja.success("Pagamento confirmado! 🎉"));
+                ja.success("Zahlung bestätigt! 🎉"));
             } catch {}
           }, 5e3)),
             (I.current = setTimeout(
               () => {
                 (N.current && clearInterval(N.current),
-                  g("Tempo de pagamento expirado. Tente novamente."),
+                  g("Tempo von pagamento expirado. Tente novamente."),
                   o("error"));
               },
               15 * 60 * 1e3,
             )));
         },
         q = (P) => {
-          (P.preventDefault(), ja.success("Dirección guardada"), t());
+          (P.preventDefault(), ja.success("Adresse guardada"), t());
         },
         K = async () => {
           try {
             (await navigator.clipboard.writeText(v),
               T(!0),
-              ja.success("Código PIX copiado!"),
+              ja.success("PIX-Code kopiert!"),
               setTimeout(() => T(!1), 3e3));
           } catch {
-            ja.error("Erro ao copiar");
+            ja.error("Fehler beim Kopieren");
           }
         },
         J = async (P) => {
@@ -30092,7 +30092,7 @@ ${w}`;
                 children: [
                   h.jsx("span", {
                     className: "text-muted-foreground",
-                    children: "Producto",
+                    children: "Produkt",
                   }),
                   h.jsx("span", { className: "font-medium", children: Hr(r) }),
                 ],
@@ -30102,11 +30102,11 @@ ${w}`;
                 children: [
                   h.jsx("span", {
                     className: "text-muted-foreground",
-                    children: "Envío",
+                    children: "Versand",
                   }),
                   h.jsx("span", {
                     className: "text-xs text-trophy-green font-semibold",
-                    children: "Gratis",
+                    children: "Kostenlos",
                   }),
                 ],
               }),
@@ -30114,7 +30114,7 @@ ${w}`;
                 className:
                   "flex justify-between text-sm font-bold mt-2 pt-2 border-t border-border",
                 children: [
-                  h.jsx("span", { children: "Total" }),
+                  h.jsx("span", { children: "Gesamt" }),
                   h.jsx("span", {
                     className: "text-gold text-lg",
                     children: Hr(r),
@@ -30181,11 +30181,11 @@ ${w}`;
                         h.jsx(R, {}),
                         h.jsx("label", {
                           className: "text-sm font-semibold text-foreground",
-                          children: "Dirección",
+                          children: "Adresse",
                         }),
                         h.jsx("input", {
                           type: "text",
-                          placeholder: "Calle y número",
+                          placeholder: "Straße und Hausnummer",
                           required: !0,
                           value: a.street,
                           onChange: (P) => c({ ...a, street: P.target.value }),
@@ -30193,22 +30193,22 @@ ${w}`;
                         }),
                         h.jsx("label", {
                           className: "text-sm font-semibold text-foreground mt-1",
-                          children: "Apartamento, piso, edificio, etc. (opcional)",
+                          children: "Wohnung, Etage, Gebäude usw. (optional)",
                         }),
                         h.jsx("input", {
                           type: "text",
-                          placeholder: "Apartamento, piso, etc.",
+                          placeholder: "Wohnung, Etage usw.",
                           value: a.complement,
                           onChange: (P) => c({ ...a, complement: P.target.value }),
                           className: Ut,
                         }),
                         h.jsx("label", {
                           className: "text-sm font-semibold text-foreground mt-1",
-                          children: "Código postal",
+                          children: "Postleitzahl",
                         }),
                         h.jsx("input", {
                           type: "text",
-                          placeholder: "Ingresa tu código postal",
+                          placeholder: "Gib deine Postleitzahl ein",
                           required: !0,
                           value: a.cep,
                           onChange: (P) => c({ ...a, cep: P.target.value }),
@@ -30216,11 +30216,11 @@ ${w}`;
                         }),
                         h.jsx("label", {
                           className: "text-sm font-semibold text-foreground mt-1",
-                          children: "Ciudad",
+                          children: "Stadt",
                         }),
                         h.jsx("input", {
                           type: "text",
-                          placeholder: "¿En qué ciudad vives?",
+                          placeholder: "In welcher Stadt wohnst du?",
                           required: !0,
                           value: a.city,
                           onChange: (P) => c({ ...a, city: P.target.value }),
@@ -30230,7 +30230,7 @@ ${w}`;
                           type: "button",
                           className:
                             "prisma-trigger prisma-visible-trigger w-full bg-lego-orange text-primary-foreground font-bold text-sm py-3 rounded-lg hover:brightness-105 transition-all shadow-lg shadow-lego-orange/30 disabled:opacity-50 disabled:animate-none animate-pulse",
-                          children: "CONTINUAR CON EL PAGO",
+                          children: "MIT DER ZAHLUNG FORTFAHREN",
                         }),
                       ],
                     }),
@@ -30243,7 +30243,7 @@ ${w}`;
                         }),
                         h.jsx("p", {
                           className: "text-sm text-muted-foreground",
-                          children: "Gerando cobrança PIX...",
+                          children: "PIX-Rechnung wird generiert...",
                         }),
                       ],
                     }),
@@ -30254,7 +30254,7 @@ ${w}`;
                         h.jsx("p", {
                           className:
                             "text-sm text-muted-foreground text-center",
-                          children: "Escaneie o QR Code com o app do seu banco",
+                          children: "Scanne den QR-Code mit deiner Banking-App",
                         }),
                         h.jsx("div", {
                           className:
@@ -30266,7 +30266,7 @@ ${w}`;
                           children: [
                             h.jsx("p", {
                               className: "text-sm text-muted-foreground",
-                              children: "Total",
+                              children: "Gesamt",
                             }),
                             h.jsx("p", {
                               className: "text-3xl font-bold text-gold",
@@ -30297,7 +30297,7 @@ ${w}`;
                                   className: "h-4 w-4 text-trophy-green",
                                 })
                               : h.jsx(_S, { className: "h-4 w-4" }),
-                            C ? "Copiado!" : "Copiar código PIX",
+                            C ? "Kopiert!" : "PIX-Code kopieren",
                           ],
                         }),
                         h.jsxs("div", {
@@ -30309,7 +30309,7 @@ ${w}`;
                                 "h-3.5 w-3.5 animate-spin text-trophy-green",
                             }),
                             h.jsx("span", {
-                              children: "Aguardando pagamento...",
+                              children: "Warte auf Zahlung...",
                             }),
                           ],
                         }),
@@ -30328,22 +30328,22 @@ ${w}`;
                         }),
                         h.jsx("h3", {
                           className: "text-xl font-bold",
-                          children: "Pagamento Confirmado!",
+                          children: "Zahlung Bestätigt!",
                         }),
                         h.jsxs("p", {
                           className:
                             "text-sm text-muted-foreground text-center",
                           children: [
-                            "Seu pagamento de ",
+                            "Seu pagamento von ",
                             h.jsx("strong", { children: Hr(B) }),
-                            " foi recebido. Você receberá a confirmação no e-mail informado.",
+                            " wurde empfangen. Du erhältst die Bestätigung per E-Mail.",
                           ],
                         }),
                         h.jsx("button", {
                           onClick: t,
                           className:
                             "w-full bg-trophy-green text-accent-foreground font-bold py-3 rounded-lg hover:brightness-105 transition-all mt-2",
-                          children: "FECHAR",
+                          children: "SCHLIESSEN",
                         }),
                       ],
                     }),
@@ -30370,7 +30370,7 @@ ${w}`;
                           onClick: () => o("form"),
                           className:
                             "w-full bg-lego-orange text-primary-foreground font-bold py-3 rounded-lg hover:brightness-105 transition-all mt-2",
-                          children: "TENTAR NOVAMENTE",
+                          children: "ERNEUT VERSUCHEN",
                         }),
                       ],
                     }),
@@ -30407,12 +30407,12 @@ ${w}`;
               h.jsx("a", {
                 href: "#",
                 className: "text-xs font-bold text-foreground hover:underline",
-                children: "Ediciones",
+                children: "Editionen",
               }),
               h.jsx("span", {
                 className:
                   "bg-lego-orange text-primary-foreground text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider",
-                children: "Nuevo",
+                children: "Neu",
               }),
             ],
           }),
@@ -30422,7 +30422,7 @@ ${w}`;
           }),
           h.jsx("h1", {
             className: "text-xl md:text-2xl font-extrabold leading-tight",
-            children: "Editions – Trofeo Oficial de la Copa Mundial de la FIFA™",
+            children: "Editions – Offizieller FIFA-Weltmeisterschaftspokal™",
           }),
           h.jsxs("div", {
             className: "flex items-center gap-1",
@@ -30449,19 +30449,19 @@ ${w}`;
             children: [
               h.jsxs("p", {
                 className: "text-sm text-muted-foreground line-through",
-                children: ["DE ", hs(vP)],
+                children: ["VON ", hs(vP)],
               }),
               h.jsxs("div", {
                 className: "flex items-baseline gap-2 flex-wrap",
                 children: [
                   h.jsxs("span", {
                     className: "text-2xl font-extrabold text-lego-red",
-                    children: ["por ", hs(Co)],
+                    children: ["für ", hs(Co)],
                   }),
                   h.jsxs("span", {
                     className: "text-sm font-bold text-foreground",
                     children: [
-                      "hasta",
+                      "bis",
                       " ",
                       h.jsxs("span", {
                         className: "font-mono text-lego-red",
@@ -30481,12 +30481,12 @@ ${w}`;
             onClick: () => t(!0),
             className:
               "w-full bg-lego-orange text-primary-foreground font-bold text-base py-3.5 rounded-lg hover:brightness-105 transition-all animate-pulse mt-1 shadow-lg shadow-lego-orange/30",
-            children: `COMPRAR AHORA — ${hs(Co)}`,
+            children: `JETZT KAUFEN — ${hs(Co)}`,
           }),
           h.jsx("p", {
             className:
               "text-center text-[11px] text-trophy-green font-semibold -mt-1.5",
-            children: "⚡ Aprobación instantánea • Descuento especial",
+            children: "⚡ Sofortige Bestätigung • Sonderrabatt",
           }),
           h.jsxs("div", {
             className:
@@ -30504,9 +30504,9 @@ ${w}`;
                     children: [
                       h.jsx("strong", {
                         className: "text-foreground",
-                        children: "23 personas",
+                        children: "23 Personen",
                       }),
-                      " están viendo este producto ahora",
+                      " sehen sich dieses Produkt gerade an",
                     ],
                   }),
                 ],
@@ -30520,9 +30520,9 @@ ${w}`;
                     children: [
                       h.jsx("strong", {
                         className: "text-foreground",
-                        children: "147 unidades",
+                        children: "147 Einheiten",
                       }),
-                      " vendidas nas últimas 24h",
+                      " in den letzten 24h verkauft",
                     ],
                   }),
                 ],
@@ -30536,9 +30536,9 @@ ${w}`;
                     children: [
                       h.jsx("strong", {
                         className: "text-foreground",
-                        children: "59 evaluaciones",
+                        children: "59 Bewertungen",
                       }),
-                      " — nota 5.0 de 5.0",
+                      " — nota 5.0 von 5.0",
                     ],
                   }),
                 ],
@@ -30552,9 +30552,9 @@ ${w}`;
                     children: [
                       h.jsx("strong", {
                         className: "text-foreground",
-                        children: "Stock limitado",
+                        children: "Begrenzter Vorrat",
                       }),
-                      " — últimas unidades disponibles",
+                      " — letzte verfügbare Einheiten",
                     ],
                   }),
                 ],
@@ -30575,7 +30575,7 @@ ${w}`;
                       h.jsx(RS, { className: "h-5 w-5 text-muted-foreground" }),
                       h.jsx("span", {
                         className: "font-medium",
-                        children: "Envío y Devolución",
+                        children: "Versand und Rückgabe",
                       }),
                     ],
                   }),
@@ -30590,11 +30590,11 @@ ${w}`;
                     "pl-8 pb-3 text-sm text-muted-foreground space-y-2",
                   children: [
                     h.jsx("p", {
-                      children: "• Plazo de entrega: 5 a 12 días hábiles",
+                      children: "• Plazo von entrega: 5 a 12 días hábiles",
                     }),
                     h.jsx("p", {
                       children:
-                        "• Plazo de devolución: hasta 30 días después de recibir",
+                        "• Plazo von devolución: bis 30 días después von recibir",
                     }),
                   ],
                 }),
@@ -30605,7 +30605,7 @@ ${w}`;
             onClose: () => t(!1),
             amount: Co,
             shipping: Hc,
-            productName: "LEGO 43020 – Trofeo Oficial de la Copa Mundial de la FIFA™",
+            productName: "LEGO 43020 – Offizieller FIFA-Weltmeisterschaftspokal™",
           }),
         ],
       });
@@ -30630,7 +30630,7 @@ ${w}`;
                   h.jsx("p", {
                     className:
                       "text-[10px] sm:text-[11px] text-muted-foreground",
-                     children: "Número de piezas",
+                     children: "Número von piezas",
                   }),
                 ],
               }),
@@ -30651,7 +30651,7 @@ ${w}`;
                   h.jsx("p", {
                     className:
                       "text-[10px] sm:text-[11px] text-muted-foreground",
-                     children: "Edad Mínima",
+                     children: "Mindestalter",
                   }),
                 ],
               }),
@@ -30672,7 +30672,7 @@ ${w}`;
                   h.jsx("p", {
                     className:
                       "text-[10px] sm:text-[11px] text-muted-foreground",
-                    children: "Minifiguras",
+                    children: "Minifiguren",
                   }),
                 ],
               }),
@@ -30688,7 +30688,7 @@ ${w}`;
               h.jsx(xS, { className: "h-4 w-4 sm:h-5 sm:w-5" }),
               h.jsx("span", {
                 className: "hidden sm:inline",
-                children: "Instrucciones de construcción",
+                children: "Instrucciones von construcción",
               }),
               h.jsx("span", { className: "sm:hidden", children: "Instruções" }),
             ],
@@ -30705,7 +30705,7 @@ ${w}`;
           h.jsx("h2", {
             className:
               "text-xl font-extrabold mb-6 border-b border-border pb-3",
-            children: "Destacados",
+            children: "Highlights",
           }),
           h.jsxs("div", {
             className:
@@ -30715,7 +30715,7 @@ ${w}`;
                 className: "overflow-hidden",
                 children: h.jsx("img", {
                   src: "/banneru-BaxjqaAE.jpg",
-                  alt: "Um incrível modelo de troféu LEGO",
+                  alt: "Um incrível modelo von troféu LEGO",
                   className: "w-full h-full object-cover",
                 }),
               }),
@@ -30724,12 +30724,12 @@ ${w}`;
                 children: [
                   h.jsx("h3", {
                     className: "text-lg font-bold mb-2",
-                    children: "Un increíble modelo de trofeo LEGO®",
+                    children: "Un increíble modelo von trofeo LEGO®",
                   }),
                   h.jsx("p", {
                     className: "text-sm text-muted-foreground leading-relaxed",
                     children:
-                      "Todos los niños son ganadores con el set de construcción LEGO® Ediciones Trofeo Oficial de la Copa Mundial de la FIFA™ para niños, niñas y aficionados.",
+                      "Todos los niños son ganadores con el set von construcción LEGO® Editionen Offizieller FIFA-Weltmeisterschaftspokal™ para niños, niñas y aficionados.",
                   }),
                 ],
               }),
@@ -30744,12 +30744,12 @@ ${w}`;
                 children: [
                   h.jsx("h3", {
                     className: "text-lg font-bold mb-2",
-                    children: "Construye como un campeón",
+                    children: "Bau wie ein Champion",
                   }),
                   h.jsx("p", {
                     className: "text-sm text-muted-foreground leading-relaxed",
                     children:
-                      "Los fanáticos van a adorar crear su propio trofeo de la Copa Mundial de la FIFA™ con piezas LEGO® y descubrir todos sus increíbles detalles.",
+                      "Fans werden es lieben, ihren eigenen FIFA-Weltmeisterschaftspokal™ aus LEGO®-Steinen zu bauen und alle erstaunlichen Details zu entdecken.",
                   }),
                 ],
               }),
@@ -30757,7 +30757,7 @@ ${w}`;
                 className: "overflow-hidden md:order-2",
                 children: h.jsx("img", {
                   src: "/banner-PGl08Xtc.jpg",
-                  alt: "Construye como un campeón",
+                  alt: "Bau wie ein Champion",
                   className: "w-full h-full object-cover",
                 }),
               }),
@@ -30769,7 +30769,7 @@ ${w}`;
               className:
                 "text-base font-bold text-center text-muted-foreground uppercase tracking-wider",
               children:
-                "LEGO® Editions Trofeo Oficial de la Copa Mundial de la FIFA™ en acción",
+                "LEGO® Editions Offizieller FIFA-Weltmeisterschaftspokal™ en acción",
             }),
           }),
           h.jsx("div", {
@@ -30792,7 +30792,7 @@ ${w}`;
           h.jsx("h2", {
             className:
               "text-xl font-extrabold mb-4 border-b border-border pb-3",
-            children: "Detalles del Producto",
+            children: "Produktdetails",
           }),
           h.jsxs("div", {
             className: `text-sm text-muted-foreground leading-relaxed space-y-4 ${e ? "" : "max-h-[200px] overflow-hidden relative"}`,
@@ -30800,11 +30800,11 @@ ${w}`;
               h.jsx("p", {
                 className: "font-bold text-foreground",
                 children:
-                  "Conviértete en un Campeón Creativo con el Trofeo Oficial de la Copa Mundial de la FIFA™ (43020) de LEGO® Editions",
+                  "Conviértete en un Campeón Creativo con el Offizieller FIFA-Weltmeisterschaftspokal™ (43020) von LEGO® Editions",
               }),
               h.jsx("p", {
                 children:
-                  "Conviértete en un campeón creativo con el set de construcción LEGO® Editions FIFA World Cup™ Official Trophy (43020), ideal para fanáticos del fútbol de 12 años o más.",
+                  "Werde ein kreativer Champion mit dem LEGO® Editions FIFA World Cup™ Official Trophy (43020) Bausatz, ideal für Fußballfans ab 12 Jahren.",
               }),
               h.jsxs("ul", {
                 className: "space-y-3 list-none",
@@ -30814,63 +30814,63 @@ ${w}`;
                       h.jsx("span", {
                         className: "font-bold text-foreground",
                         children:
-                          "SET DE CONSTRUCCIÓN DE DECORACIÓN DE FÚTBOL",
+                          "SET VON CONSTRUCCIÓN VON DECORACIÓN VON FÚTBOL",
                       }),
-                      " – Todos los niños son ganadores con el set de construcción LEGO® Editions FIFA World Cup™ Official Trophy (43020) para fanáticos del fútbol de 12 años o más.",
+                      " – Alle Kinder sind Gewinner mit dem LEGO® Editions FIFA World Cup™ Official Trophy (43020) Bausatz für Fußballfans ab 12 Jahren.",
                     ],
                   }),
                   h.jsxs("li", {
                     children: [
                       h.jsx("span", {
                         className: "font-bold text-foreground",
-                        children: "DETALLES AUTÉNTICOS DEL TROFEO",
+                        children: "AUTHENTISCHE POKAL-DETAILS",
                       }),
-                      " – El modelo coleccionable de fútbol es una réplica detallada del trofeo de la Copa Mundial FIFA 2026™, con 2 figuras humanas sosteniendo el globo terráqueo, además del icónico globo y una placa.",
+                      " – Das Sammlerfußballmodell ist eine detaillierte Nachbildung des FIFA 2026™ Weltmeisterschaftspokals mit 2 menschlichen Figuren, die den Globus halten, sowie dem ikonischen Globus und einer Plakette.",
                     ],
                   }),
                   h.jsxs("li", {
                     children: [
                       h.jsx("span", {
                         className: "font-bold text-foreground",
-                        children: "ESCENA DE FÚTBOL",
+                        children: "ESCENA VON FÚTBOL",
                       }),
-                      " – Hay un compartimento oculto en la sección superior del globo que revela una minifigura exclusiva de la marca FIFA World Cup 2026™ sosteniendo un mini trofeo.",
+                      " – Es gibt ein verstecktes Fach im oberen Bereich des Globus, das eine exklusive FIFA World Cup 2026™ Minifigur enthüllt, die einen Mini-Pokal hält.",
                     ],
                   }),
                   h.jsxs("li", {
                     children: [
                       h.jsx("span", {
                         className: "font-bold text-foreground",
-                        children: "DECORACIÓN DEPORTIVA",
+                        children: "SPORT-DEKORATION",
                       }),
-                      " – La miniscena se puede retirar y exhibir junto al modelo del trofeo LEGO®, y los fanáticos pueden mostrar sus creaciones con orgullo como decoración de fútbol.",
+                      " – Die Miniszene kann herausgenommen und neben dem LEGO®-Trophäenmodell ausgestellt werden, und Fans können ihre Kreationen stolz als Fußball-Dekoration präsentieren.",
                     ],
                   }),
                   h.jsxs("li", {
                     children: [
                       h.jsx("span", {
                         className: "font-bold text-foreground",
-                        children: "REGALO PARA FANÁTICOS DEL DEPORTE",
+                        children: "GESCHENK FÜR SPORTFANS",
                       }),
-                      " – Este set de construcción es una gran idea de regalo deportivo para niños, niñas y amantes del fútbol en cumpleaños y otras ocasiones especiales.",
+                      " – Este set von construcción es una gran idea von regalo deportivo para niños, niñas y amantes del fútbol en cumpleaños y otras ocasiones especiales.",
                     ],
                   }),
                   h.jsxs("li", {
                     children: [
                       h.jsx("span", {
                         className: "font-bold text-foreground",
-                        children: "APLICACIÓN LEGO® BUILDER",
+                        children: "LEGO® BUILDER-APP",
                       }),
-                      " – El set está disponible digitalmente en la aplicación LEGO Builder, donde los fanáticos pueden seguir su progreso y girar sus construcciones.",
+                      " – Das Set ist digital in der LEGO Builder-App verfügbar, wo Fans ihren Fortschritt verfolgen und ihre Bauwerke drehen können.",
                     ],
                   }),
                   h.jsxs("li", {
                     children: [
                       h.jsx("span", {
                         className: "font-bold text-foreground",
-                        children: "DIMENSIONES",
+                        children: "ABMESSUNGEN",
                       }),
-                      " – El modelo del trofeo de 2.842 piezas mide más de 36 cm de altura (14,5 pulg.).",
+                      " – El modelo del trofeo von 2.842 piezas mide más von 36 cm von altura (14,5 pulg.).",
                     ],
                   }),
                 ],
@@ -30887,7 +30887,7 @@ ${w}`;
             className:
               "flex items-center gap-1 text-sm font-bold mt-3 hover:underline",
             children: [
-              e ? "Ver menos" : "Ver más",
+              e ? "Weniger anzeigen" : "Mehr anzeigen",
               h.jsx(S0, {
                 className: `h-4 w-4 transition-transform ${e ? "rotate-180" : ""}`,
               }),
@@ -30902,520 +30902,520 @@ ${w}`;
         name: "Lucas M.",
         stars: 5,
         comment:
-          "pensé que ni iba a llegar pero llegó en 6 días jaja, calidad buenísima",
+          "Ich dachte nicht, dass es ankommen würde, aber es kam in 6 Tagen an lol, super Qualität",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=11",
         productPhoto: "/reviews/review-1.webp",
-        date: "hace 2 días",
+        date: "vor 2 Tagen",
       },
       {
         id: 2,
         name: "Carla Souza",
         stars: 5,
         comment:
-          "lo compré para mi hijo y lo amó, estuvo armándolo todo el día 😍",
+          "Ich habe es für meinen Sohn gekauft und er hat es geliebt, er hat es den ganzen Tag gebaut 😍",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=5",
         productPhoto: "/reviews/review-6.jpeg",
-        date: "hace 3 días",
+        date: "vor 3 Tagen",
       },
       {
         id: 3,
         name: "Rafael B.",
         stars: 5,
-        comment: "el mío llegó en 5 días, vino todo perfecto",
+        comment: "Meins kam in 5 Tagen an, alles war perfekt",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=12",
         productPhoto: "/reviews/review-3.webp",
-        date: "hace 4 días",
+        date: "vor 4 Tagen",
       },
       {
         id: 4,
         name: "Juliana P.",
         stars: 4,
-        comment: "cuando vi el descuento pensé que era falso jaja pero funcionó",
+        comment: "Als ich den Rabatt sah, dachte ich es wäre falsch lol, aber es hat funktioniert",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=9",
-        date: "hace 5 días",
+        date: "vor 5 Tagen",
       },
       {
         id: 5,
         name: "Fernando Oliveira",
         stars: 5,
         comment:
-          "la calidad es increíble. las piezas encajan perfecto, parece original de verdad 🔥",
+          "la calidad es increíble. las piezas encajan perfecto, parece original von verdad 🔥",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=14",
         productPhoto: "/reviews/review-4.webp",
-        date: "hace 5 días",
+        date: "vor 5 Tagen",
       },
       {
         id: 6,
         name: "Amanda L.",
         stars: 5,
-        comment: "le regalé a mi marido, quedó muy feliz. ¡lo recomiendo!",
+        comment: "Ich habe es meinem Mann geschenkt, er war sehr glücklich. Ich empfehle es!",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=1",
         productPhoto: "/reviews/review-7.jpeg",
-        date: "hace 6 días",
+        date: "vor 6 Tagen",
       },
       {
         id: 7,
         name: "Diego Santos",
         stars: 4,
         comment:
-          "tardó unos 8 días en llegar pero el producto es bueno, valió la espera",
+          "Es dauerte ca. 8 Tage bis es ankam, aber das Produkt ist gut, das Warten hat sich gelohnt",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=53",
-        date: "hace 1 semana",
+        date: "vor 1 Woche",
       },
       {
         id: 8,
         name: "Bianca R.",
         stars: 5,
         comment:
-          "hice el quiz y gané descuento, no lo pensé dos veces jaja llegó rápido",
+          "Ich habe das Quiz gemacht und Rabatt bekommen, habe nicht lange überlegt lol, kam schnell an",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=21",
         productPhoto: "/reviews/review-2.webp",
-        date: "hace 1 semana",
+        date: "vor 1 Woche",
       },
       {
         id: 9,
         name: "Thiago Costa",
         stars: 5,
         comment:
-          "soy coleccionista y puedo decir que la calidad está al nivel. piezas bien hechas 👏",
+          "Ich bin Sammler und kann sagen, dass die Qualität stimmt. Gut gemachte Teile 👏",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=59",
         productPhoto: "/reviews/review-5.webp",
-        date: "hace 1 semana",
+        date: "vor 1 Woche",
       },
       {
         id: 10,
         name: "Patrícia Mendes",
         stars: 5,
         comment:
-          "compré 2, uno para mí y otro para mi sobrino. los dos lo amaron",
+          "Ich habe 2 gekauft, eines für mich und eines für meinen Neffen. Beide haben es geliebt",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=25",
-        date: "hace 9 días",
+        date: "vor 9 Tagen",
       },
       {
         id: 11,
         name: "Gabriel Alves",
         stars: 4,
         comment:
-          "pensé que iba a ser más pequeño, pero el tamaño es bueno. quedó lindo en el estante",
+          "Ich dachte es wäre kleiner, aber die Größe ist gut. Es sieht schön im Regal aus",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=33",
-        date: "hace 10 días",
+        date: "vor 10 Tagen",
       },
       {
         id: 12,
         name: "Camila F.",
         stars: 5,
-        comment: "entrega antes del plazo y producto impecable. ¡nota 10! 🏆",
+        comment: "Lieferung vor dem Termin und einwandfreies Produkt. Note 10! 🏆",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=23",
         productPhoto: "/reviews/review-1.webp",
-        date: "hace 10 días",
+        date: "vor 10 Tagen",
       },
       {
         id: 13,
         name: "Marcos Vinícius",
         stars: 5,
         comment:
-          "llevaba tiempo buscando este trofeo, lo encontré aquí con un precio increíble",
+          "Ich suchte schon lange nach diesem Pokal, fand ihn hier zu einem unglaublichen Preis",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=60",
-        date: "hace 12 días",
+        date: "vor 12 Tagen",
       },
       {
         id: 14,
         name: "Letícia Barros",
         stars: 4,
         comment:
-          "me gustó bastante, solo el empaque era un poco simple pero el producto es genial",
+          "Es hat mir sehr gut gefallen, nur die Verpackung war etwas einfach, aber das Produkt ist toll",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=32",
-        date: "hace 2 semanas",
+        date: "vor 2 Wochen",
       },
       {
         id: 15,
         name: "Pedro Henrique",
         stars: 5,
         comment:
-          "mi hijo está enganchado con el mundial y lego, fue el regalo perfecto 😂⚽",
+          "Mein Sohn ist begeistert von der WM und LEGO, es war das perfekte Geschenk 😂⚽",
         hasPhoto: !0,
         photoUrl: "https://i.pravatar.cc/80?img=57",
         productPhoto: "/reviews/review-4.webp",
-        date: "hace 2 semanas",
+        date: "vor 2 Wochen",
       },
       {
         id: 16,
         name: "Ana Clara",
         stars: 5,
-        comment: "llegó muy rápido. no lo podía creer. producto top",
+        comment: "Es kam sehr schnell an. Ich konnte es nicht glauben. Top-Produkt",
         hasPhoto: !1,
-        date: "hace 2 semanas",
+        date: "vor 2 Wochen",
       },
       {
         id: 17,
         name: "Roberto S.",
         stars: 4,
-        comment: "buen producto, entrega ok. lo recomiendo",
+        comment: "Gutes Produkt, Lieferung ok. Ich empfehle es",
         hasPhoto: !1,
-        date: "hace 2 semanas",
+        date: "vor 2 Wochen",
       },
       {
         id: 18,
         name: "Gustavo Lima",
         stars: 5,
-        comment: "compré impulsivamente después del quiz y no me arrepentí jaja",
+        comment: "Ich habe es nach dem Quiz impulsiv gekauft und es nicht bereut lol",
         hasPhoto: !1,
-        date: "hace 15 días",
+        date: "vor 15 Tagen",
       },
       {
         id: 19,
         name: "Mariana Costa",
         stars: 5,
-        comment: "las piezas encajan bien, mi hijo lo armó solo",
+        comment: "Die Teile passen gut zusammen, mein Sohn hat es alleine gebaut",
         hasPhoto: !1,
-        date: "hace 15 días",
+        date: "vor 15 Tagen",
       },
       {
         id: 20,
         name: "João Victor",
         stars: 5,
-        comment: "esperaba menos en cuanto a calidad pero me sorprendió de verdad",
+        comment: "esperaba menos en cuanto a calidad pero me sorprendió von verdad",
         hasPhoto: !1,
-        date: "hace 16 días",
+        date: "vor 16 Tagen",
       },
       {
         id: 21,
         name: "Isabela N.",
         stars: 4,
-        comment: "muy bonito, solo el manual podría ser más claro",
+        comment: "Sehr schön, nur die Anleitung könnte klarer sein",
         hasPhoto: !1,
-        date: "hace 17 días",
+        date: "vor 17 Tagen",
       },
       {
         id: 22,
         name: "Felipe Rocha",
         stars: 5,
         comment:
-          "esto está baratísimo para lo que es. lo aproveché al instante 🔥",
+          "Das ist für das, was es ist, sehr günstig. Ich habe sofort zugegriffen 🔥",
         hasPhoto: !1,
-        date: "hace 17 días",
+        date: "vor 17 Tagen",
       },
       {
         id: 23,
         name: "Larissa M.",
         stars: 5,
-        comment: "llegó en 4 días, vino bien embalado",
+        comment: "Es kam in 4 Tagen an, gut verpackt",
         hasPhoto: !1,
-        date: "hace 18 días",
+        date: "vor 18 Tagen",
       },
       {
         id: 24,
         name: "Bruno Ferreira",
         stars: 5,
-        comment: "lo armé con mi hermano, fue muy divertido. quedó genial en el estante",
+        comment: "Ich habe es mit meinem Bruder gebaut, es hat viel Spaß gemacht. Es sieht toll im Regal aus",
         hasPhoto: !1,
-        date: "hace 18 días",
+        date: "vor 18 Tagen",
       },
       {
         id: 25,
         name: "Daniela P.",
         stars: 4,
         comment:
-          "buen producto, el soporte respondió rápido cuando pregunté por el envío",
+          "Gutes Produkt, der Support antwortete schnell, als ich nach dem Versand fragte",
         hasPhoto: !1,
-        date: "hace 19 días",
+        date: "vor 19 Tagen",
       },
       {
         id: 26,
         name: "Matheus Souza",
         stars: 5,
         comment:
-          "soy fanático del fútbol y del lego. este trofeo es perfecto para la colección ⚽🏆",
+          "Ich bin Fußball- und LEGO-Fan. Dieser Pokal ist perfekt für die Sammlung ⚽🏆",
         hasPhoto: !1,
-        date: "hace 20 días",
+        date: "vor 20 Tagen",
       },
       {
         id: 27,
         name: "Renata G.",
         stars: 5,
         comment:
-          "se lo regalé a mi papá, lo amó. dijo que quedó igual al de verdad jaja",
+          "se lo regalé a mi papá, lo amó. dijo que quedó igual al von verdad jaja",
         hasPhoto: !1,
-        date: "hace 20 días",
+        date: "vor 20 Tagen",
       },
       {
         id: 28,
         name: "André Luiz",
         stars: 5,
         comment:
-          "cuando vi el precio no lo pensé dos veces. mejor compra del mes",
+          "Als ich den Preis sah, habe ich nicht gezögert. Bester Kauf des Monats",
         hasPhoto: !1,
-        date: "hace 3 semanas",
+        date: "vor 3 Wochen",
       },
       {
         id: 29,
         name: "Tatiana Reis",
         stars: 4,
-        comment: "buen producto. tardó unos 7 días pero llegó intacto",
+        comment: "Gutes Produkt. Dauerte ca. 7 Tage, aber kam unversehrt an",
         hasPhoto: !1,
-        date: "hace 3 semanas",
+        date: "vor 3 Wochen",
       },
       {
         id: 30,
         name: "Vinícius C.",
         stars: 5,
-        comment: "producto muy bueno, nota 10. ya quiero comprar otros modelos",
+        comment: "Sehr gutes Produkt, Note 10. Ich möchte schon andere Modelle kaufen",
         hasPhoto: !1,
-        date: "hace 3 semanas",
+        date: "vor 3 Wochen",
       },
       {
         id: 31,
         name: "Natália Borges",
         stars: 5,
-        comment: "no conocía la marca pero me arriesgué y me gustó mucho",
+        comment: "Ich kannte die Marke nicht, aber ich habe es riskiert und mochte es sehr",
         hasPhoto: !1,
-        date: "hace 22 días",
+        date: "vor 22 Tagen",
       },
       {
         id: 32,
         name: "Ricardo Lima",
         stars: 5,
-        comment: "pensé que era fraude pero decidí probarlo y salió buenísimo jaja",
+        comment: "Ich dachte es wäre Betrug, aber ich entschied mich, es auszuprobieren und es war super lol",
         hasPhoto: !1,
-        date: "hace 22 días",
+        date: "vor 22 Tagen",
       },
       {
         id: 33,
         name: "Fernanda Almeida",
         stars: 4,
-        comment: "buena relación calidad-precio. producto bonito y bien hecho",
+        comment: "Gutes Preis-Leistungs-Verhältnis. Schönes und gut gemachtes Produkt",
         hasPhoto: !1,
-        date: "hace 23 días",
+        date: "vor 23 Tagen",
       },
       {
         id: 34,
         name: "Caio Martins",
         stars: 5,
         comment:
-          "mi hijo lo arma y desarma todos los días, adoró el regalo",
+          "Mein Sohn baut und baut es täglich wieder auseinander, er liebt das Geschenk",
         hasPhoto: !1,
-        date: "hace 24 días",
+        date: "vor 24 Tagen",
       },
       {
         id: 35,
         name: "Priscila D.",
         stars: 5,
         comment:
-          "al principio dudé pero llegó todo perfecto. súper recomendado 👍",
+          "Anfangs war ich skeptisch, aber alles kam perfekt an. Super empfohlen 👍",
         hasPhoto: !1,
-        date: "hace 24 días",
+        date: "vor 24 Tagen",
       },
       {
         id: 36,
         name: "Leonardo Nunes",
         stars: 5,
-        comment: "entrega rápida y producto conforme al anuncio. satisfecho",
+        comment: "Schnelle Lieferung und Produkt wie beschrieben. Zufrieden",
         hasPhoto: !1,
-        date: "hace 25 días",
+        date: "vor 25 Tagen",
       },
       {
         id: 37,
         name: "Aline Cardoso",
         stars: 4,
         comment:
-          "me gustó, pero esperaba un poco más grande. igual vale la pena",
+          "Hat mir gefallen, aber ich erwartete etwas größeres. Trotzdem lohnt es sich",
         hasPhoto: !1,
-        date: "hace 25 días",
+        date: "vor 25 Tagen",
       },
       {
         id: 38,
         name: "Eduardo K.",
         stars: 5,
-        comment: "felicitaciones a quien hizo este producto. calidad increíble 🏆",
+        comment: "Glückwunsch an denjenigen, der dieses Produkt gemacht hat. Unglaubliche Qualität 🏆",
         hasPhoto: !1,
-        date: "hace 26 días",
+        date: "vor 26 Tagen",
       },
       {
         id: 39,
         name: "Sabrina Oliveira",
         stars: 5,
-        comment: "lo compré para decorar la oficina, quedó muy estiloso",
+        comment: "Ich habe es zur Bürodekoration gekauft, es sieht sehr stilvoll aus",
         hasPhoto: !1,
-        date: "hace 27 días",
+        date: "vor 27 Tagen",
       },
       {
         id: 40,
         name: "Rodrigo Dias",
         stars: 5,
         comment:
-          "hice el quiz por curiosidad y terminé comprando jaja sin arrepentimiento",
+          "hice el quiz für curiosidad y terminé comprando jaja sin arrepentimiento",
         hasPhoto: !1,
-        date: "hace 27 días",
+        date: "vor 27 Tagen",
       },
       {
         id: 41,
         name: "Vanessa T.",
         stars: 4,
-        comment: "producto ok, cumple lo que promete. nada que reprochar",
+        comment: "Produkt ok, hält was es verspricht. Nichts auszusetzen",
         hasPhoto: !1,
-        date: "hace 28 días",
+        date: "vor 28 Tagen",
       },
       {
         id: 42,
         name: "Henrique Bastos",
         stars: 5,
-        comment: "ya es mi tercera compra aquí. siempre entregan perfectamente",
+        comment: "Es ist schon mein dritter Kauf hier. Sie liefern immer perfekt",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 43,
         name: "Beatriz Santos",
         stars: 5,
-        comment: "a mi novio le encantó el regalo 😍 súper recomendado",
+        comment: "Meinem Freund hat das Geschenk gefallen 😍 Sehr empfohlen",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 44,
         name: "Paulo César",
         stars: 5,
         comment:
-          "como coleccionista de lego, puedo decir que la calidad es excelente",
+          "como coleccionista von lego, puedo decir que la calidad es excelente",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 45,
         name: "Giovana Melo",
         stars: 4,
-        comment: "me gustó, las piezas son firmes y bien acabadas",
+        comment: "Hat mir gefallen, die Teile sind fest und gut verarbeitet",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 46,
         name: "Leandro F.",
         stars: 5,
-        comment: "vino todo correcto, sin pieza faltante. lo armé en unas 2 horas",
+        comment: "Alles kam korrekt an, kein Teil fehlte. Ich habe es in ca. 2 Stunden gebaut",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 47,
         name: "Raquel Barbosa",
         stars: 5,
-        comment: "mi hija lo vio y ya quiere uno para ella también jaja",
+        comment: "Meine Tochter hat es gesehen und will jetzt auch eines lol",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 48,
         name: "Tiago Prado",
         stars: 5,
-        comment: "brillante, literalmente. el trofeo quedó precioso armado 🏆",
+        comment: "Brillant, buchstäblich. Der Pokal sieht wunderschön gebaut aus 🏆",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 49,
         name: "Cristina Lopes",
         stars: 4,
-        comment: "tardó un poco en llegar pero el producto es bueno",
+        comment: "Hat etwas gedauert anzukommen, aber das Produkt ist gut",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 50,
         name: "Alex Ribeiro",
         stars: 5,
-        comment: "compré con miedo pero el producto es real, calidad top",
+        comment: "Ich habe es mit Bedenken gekauft, aber das Produkt ist echt, Top-Qualität",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 51,
         name: "Michele Araujo",
         stars: 5,
-        comment: "¡me encantó! va a quedar en la sala, todos lo elogian cuando lo ven",
+        comment: "Ich liebe es! Es wird im Wohnzimmer stehen, alle loben es wenn sie es sehen",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 52,
         name: "Willian Santos",
         stars: 5,
-        comment: "no puedo creerlo, por ese precio está prácticamente regalado",
+        comment: "no puedo creerlo, für ese precio está prácticamente regalado",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 53,
         name: "Elaine Moreira",
         stars: 4,
-        comment: "bueno, bonito y barato. el trío perfecto jaja",
+        comment: "Gut, schön und günstig. Das perfekte Trio lol",
         hasPhoto: !1,
-        date: "hace 1 mes",
+        date: "vor 1 Monat",
       },
       {
         id: 54,
         name: "Anderson Costa",
         stars: 5,
         comment:
-          "ya les mandé el link a los amigos, todos quieren comprarlo ahora",
+          "Ich habe den Link an Freunde geschickt, alle wollen es jetzt kaufen",
         hasPhoto: !1,
-        date: "hace 2 meses",
+        date: "vor 2 Monaten",
       },
       {
         id: 55,
         name: "Simone Pereira",
         stars: 5,
-        comment: "el mejor regalo que le he dado a mi sobrino. enloquecio 🎁",
+        comment: "Das beste Geschenk das ich meinem Neffen je gemacht habe. Er ist ausgeflippt 🎁",
         hasPhoto: !1,
-        date: "hace 2 meses",
+        date: "vor 2 Monaten",
       },
       {
         id: 56,
         name: "Daniel Moura",
         stars: 5,
-        comment: "el descuento es real, pueden comprar tranquilos",
+        comment: "Der Rabatt ist real, ihr könnt beruhigt kaufen",
         hasPhoto: !1,
-        date: "hace 2 meses",
+        date: "vor 2 Monaten",
       },
       {
         id: 57,
         name: "Luana Freitas",
         stars: 4,
         comment:
-          "me gustó el producto. el empaque podría ser mejor pero el lego está genial",
+          "Das Produkt hat mir gefallen. Die Verpackung könnte besser sein, aber das LEGO ist toll",
         hasPhoto: !1,
-        date: "hace 2 meses",
+        date: "vor 2 Monaten",
       },
       {
         id: 58,
         name: "Carlos Eduardo",
         stars: 5,
         comment:
-          "perfecto para quien le gusta el fútbol y el lego. lo mejor de los dos mundos",
+          "perfecto para quien le gusta el fútbol y el lego. lo mejor von los dos mundos",
         hasPhoto: !1,
-        date: "hace 2 meses",
+        date: "vor 2 Monaten",
       },
       {
         id: 59,
         name: "Débora Machado",
         stars: 5,
-        comment: "no esperaba esa calidad por el precio. sorprendió totalmente 👏",
+        comment: "no esperaba esa calidad für el precio. sorprendió totalmente 👏",
         hasPhoto: !1,
-        date: "hace 2 meses",
+        date: "vor 2 Monaten",
       },
     ],
     SP = 6,
@@ -31488,7 +31488,7 @@ ${w}`;
                     children: [
                       h.jsx("img", {
                         src: e.productPhoto,
-                        alt: "Foto do produto",
+                        alt: "Produktfoto",
                         className: `rounded-lg border border-border object-cover cursor-pointer transition-all ${t ? "w-full max-h-80" : "w-24 h-24"}`,
                         onClick: () => r(!t),
                       }),
@@ -31499,7 +31499,7 @@ ${w}`;
                             "flex items-center gap-1 mt-1 text-[10px] text-muted-foreground hover:text-foreground transition",
                           children: [
                             h.jsx(CS, { className: "w-3 h-3" }),
-                            " Ver foto",
+                            " Foto anzeigen",
                           ],
                         }),
                     ],
@@ -31526,7 +31526,7 @@ ${w}`;
           h.jsxs("h2", {
             className:
               "text-lg sm:text-xl font-extrabold mb-4 border-b border-border pb-3",
-            children: ["Reseñas (", s, ")"],
+            children: ["Bewertungen (", s, ")"],
           }),
           h.jsx("div", {
             className: "bg-secondary rounded-xl p-4 sm:p-6 mb-6",
@@ -31551,7 +31551,7 @@ ${w}`;
                     }),
                     h.jsxs("p", {
                       className: "text-[10px] text-muted-foreground mt-1",
-                      children: [s, " evaluaciones"],
+                      children: [s, " Bewertungen"],
                     }),
                   ],
                 }),
@@ -31606,9 +31606,9 @@ ${w}`;
               className:
                 "mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl border border-border bg-card text-sm font-medium text-foreground hover:bg-secondary transition",
               children: [
-                "Ver más evaluaciones (",
+                "Mehr anzeigen Bewertungen (",
                 Vr.length - e,
-                " restantes)",
+                " verbleibend)",
                 h.jsx(S0, { className: "w-4 h-4" }),
               ],
             }),
@@ -31617,26 +31617,26 @@ ${w}`;
             children: [
               h.jsx("h3", {
                 className: "text-sm sm:text-base font-bold mb-3",
-                children: "Preguntas y respuestas",
+                children: "Fragen und Antworten",
               }),
               h.jsx("p", {
                 className: "text-xs sm:text-sm text-muted-foreground mb-4",
                 children:
-                  "Aún no hay preguntas sobre el producto, ¿qué tal hacer la primera?",
+                  "Es gibt noch keine Fragen zum Produkt. Wie wäre es, die erste zu stellen?",
               }),
               h.jsxs("div", {
                 className: "flex flex-col sm:flex-row gap-2",
                 children: [
                   h.jsx("input", {
                     type: "text",
-                    placeholder: "Pregunta aquí y te responderemos.",
+                    placeholder: "Frage aquí y te responderemos.",
                     className:
                       "flex-1 border border-border rounded-lg px-3 py-2.5 text-sm bg-background focus:outline-none focus:ring-1 focus:ring-ring",
                   }),
                   h.jsx("button", {
                     className:
                       "bg-foreground text-primary-foreground px-5 py-2.5 rounded-lg text-sm font-medium hover:opacity-90 transition",
-                    children: "Enviar pregunta",
+                    children: "Frage senden",
                   }),
                 ],
               }),
@@ -31670,7 +31670,7 @@ ${w}`;
                       children: [
                         h.jsx("h4", {
                           className: "font-bold mb-3 opacity-100",
-                          children: "Sobre nós",
+                          children: "Über uns",
                         }),
                         h.jsxs("ul", {
                           className: "space-y-2",
@@ -31679,21 +31679,21 @@ ${w}`;
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Sobre el Grupo LEGO",
+                                children: "Über die LEGO Gruppe",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Club de Ventajas",
+                                children: "Club von Ventajas",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Busca una tienda LEGO",
+                                children: "Eine LEGO-Filiale finden",
                               }),
                             }),
                           ],
@@ -31704,7 +31704,7 @@ ${w}`;
                       children: [
                         h.jsx("h4", {
                           className: "font-bold mb-3 opacity-100",
-                          children: "Soporte",
+                          children: "Support",
                         }),
                         h.jsxs("ul", {
                           className: "space-y-2",
@@ -31713,35 +31713,35 @@ ${w}`;
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Accesibilidad",
+                                children: "Barrierefreiheit",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Instrucciones de construcción",
+                                children: "Instrucciones von construcción",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Piezas de repuesto",
+                                children: "Piezas von repuesto",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Preguntas frecuentes",
+                                children: "Häufig gestellte Fragen",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Contáctanos",
+                                children: "Kontaktiere uns",
                               }),
                             }),
                           ],
@@ -31752,7 +31752,7 @@ ${w}`;
                       children: [
                         h.jsx("h4", {
                           className: "font-bold mb-3 opacity-100",
-                          children: "Información",
+                          children: "Informationen",
                         }),
                         h.jsxs("ul", {
                           className: "space-y-2",
@@ -31761,28 +31761,28 @@ ${w}`;
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Método de pago",
+                                children: "Método von pago",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Entregas y devoluciones",
+                                children: "Lieferung und Rückgaben",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Términos y condiciones",
+                                children: "Allgemeine Geschäftsbedingungen",
                               }),
                             }),
                             h.jsx("li", {
                               children: h.jsx("a", {
                                 href: "#",
                                 className: "hover:opacity-100 transition",
-                                children: "Política de privacidad",
+                                children: "Política von privacidad",
                               }),
                             }),
                           ],
@@ -31798,7 +31798,7 @@ ${w}`;
               children: [
                 h.jsx("span", {
                   className: "text-sm font-bold",
-                  children: "Síguenos",
+                  children: "Folge uns",
                 }),
                 h.jsx("a", {
                   href: "https://www.instagram.com/legostoresbr/",
@@ -31836,12 +31836,12 @@ ${w}`;
               children: [
                 h.jsx("p", {
                   children:
-                    "M Shop Comercial LTDA es el socio oficial del sitio licenciado del Grupo LEGO.",
+                    "M Shop Comercial LTDA ist der offizielle Partner der lizenzierten LEGO Gruppen-Website.",
                 }),
                 h.jsx("p", {
                   className: "mt-2",
                   children:
-                    "LEGO, el logotipo LEGO y la Minifigura son marcas registradas y/o derechos de autor de LEGO Group. ©2025 LEGO Group. Todos los derechos reservados.",
+                    "LEGO, el logotipo LEGO y la Minifigura son marcas registradas y/o derechos von autor von LEGO Group. ©2025 LEGO Group. Todos los derechos reservados.",
                 }),
               ],
             }),
@@ -31862,24 +31862,24 @@ ${w}`;
               h.jsx("a", {
                 href: "#",
                 className: "hover:underline",
-                children: "Inicio",
+                children: "Startseite",
               }),
               h.jsx("span", { className: "mx-1", children: "›" }),
               h.jsx("a", {
                 href: "#",
                 className: "hover:underline",
-                children: "Temas",
+                children: "Themen",
               }),
               h.jsx("span", { className: "mx-1", children: "›" }),
               h.jsx("a", {
                 href: "#",
                 className: "hover:underline",
-                children: "Ediciones",
+                children: "Editionen",
               }),
               h.jsx("span", { className: "mx-1", children: "›" }),
               h.jsx("span", {
                 className: "text-foreground",
-                children: "Trofeo Oficial de la Copa Mundial de la FIFA™",
+                children: "Offizieller FIFA-Weltmeisterschaftspokal™",
               }),
             ],
           }),
@@ -32232,7 +32232,7 @@ ${w}`;
           ie = Math.abs(Q - F) * 0.1,
           ue = S.shape.bitmap.width * S.scalar,
           ae = S.shape.bitmap.height * S.scalar,
-          de = new DOMMatrix([
+          von = new DOMMatrix([
             Math.cos(U) * Z,
             Math.sin(U) * Z,
             -Math.sin(U) * ie,
@@ -32517,11 +32517,11 @@ ${w}`;
         ae = Math.ceil(
           ie.actualBoundingBoxAscent + ie.actualBoundingBoxDescent,
         ),
-        de = 2,
+        von = 2,
         pe = ie.actualBoundingBoxLeft + de,
         ne = ie.actualBoundingBoxAscent + de;
-      ((ue += de + de),
-        (ae += de + de),
+      ((ue += von + de),
+        (ae += von + de),
         (U = new OffscreenCanvas(ue, ae)),
         (Z = U.getContext("2d")),
         (Z.font = Q),
@@ -32617,8 +32617,8 @@ ${w}`;
                   className:
                     "flex items-center justify-between text-xs text-gray-500 mb-1",
                   children: [
-                    h.jsxs("span", { children: ["Pregunta ", e, " de ", t] }),
-                    h.jsx("span", { children: "Ya casi..." }),
+                    h.jsxs("span", { children: ["Frage ", e, " von ", t] }),
+                    h.jsx("span", { children: "Fast geschafft..." }),
                   ],
                 }),
                 h.jsx("div", {
@@ -32722,7 +32722,7 @@ ${w}`;
   const Da = [
       { label: "CR7 LEGO", color: "hsl(205 100% 36%)" },
       {
-        label: `90% OFF
+        label: `90% RABATT
 EN TODO EL SITIO`,
         color: "hsl(357 92% 45%)",
       },
@@ -32742,12 +32742,12 @@ LEGO`,
       {
         label: `TROFEO
 COPA
-90% OFF`,
+90% RABATT`,
         color: "hsl(149 100% 33%)",
       },
       {
         label: `GIRAR
-DE NUEVO`,
+VON NUEVO`,
         color: "hsl(0 0% 53%)",
       },
       {
@@ -32867,7 +32867,7 @@ LEGO`,
             }
             a(!1);
             const B = Da[p].label.replace(/\n/g, " ");
-            (u(t ? `🎉 ${B}` : "😅 ¡Inténtalo de nuevo!"),
+            (u(t ? `🎉 ${B}` : "😅 ¡Inténtalo von nuevo!"),
               (s.current = window.setTimeout(() => {
                 (t ? Hy() : jP(), e(t));
               }, 900)));
@@ -32931,7 +32931,7 @@ LEGO`,
                 color: "hsl(0 0% 7%)",
                 boxShadow: "0 3px 0 hsl(45 86% 39%)",
               },
-              children: t ? "¡GIRAR DE NUEVO! 🍀" : "¡GIRAR LA RULETA! 🍀",
+              children: t ? "¡GIRAR VON NUEVO! 🍀" : "🍀 RAD DREHEN!",
             }),
         ],
       });
@@ -32940,7 +32940,7 @@ LEGO`,
       {
         id: "q1",
         emoji: "⚽",
-        question: "¿Qué jugador armarías en versión LEGO?",
+        question: "Welchen Spieler würdest du als LEGO-Version bauen?",
         options: [
           "Lionel Messi 🇦🇷",
           "Cristiano Ronaldo 🇵🇹",
@@ -32952,46 +32952,46 @@ LEGO`,
       {
         id: "q2",
         emoji: "🏆",
-        question: "¿Qué selección merece ganar la Copa 2026?",
+        question: "Welche Nationalmannschaft verdient es, den Cup 2026 zu gewinnen?",
         options: ["Brasil 🇧🇷", "Argentina 🇦🇷", "Francia 🇫🇷", "Portugal 🇵🇹"],
         colors: ["#0055BF", "#008F3D", "#FF8C00", "#E3000B"],
       },
       {
         id: "q3",
         emoji: "🧱",
-        question: "¿Prefieres armar LEGO o jugar fútbol?",
+        question: "Bevorzugst du LEGO bauen oder Fußball spielen?",
         options: [
-          "Armar LEGO 🧱",
-          "Jugar fútbol ⚽",
-          "Los dos 😎",
-          "Solo ver 📺",
+          "LEGO bauen 🧱",
+          "Fußball spielen ⚽",
+          "Beides 😎",
+          "Nur zuschauen 📺",
         ],
         colors: ["#E3000B", "#0055BF", "#008F3D", "#FFD500"],
       },
       {
         id: "q4",
         emoji: "🔥",
-        question: "Si pudieras vivir un momento, ¿cuál sería?",
+        question: "Wenn du einen Moment erleben könntest, welcher wäre das?",
         options: [
-          "Gol en la final ⚽🔥",
-          "Levantar la copa 🏆",
-          "Atajada imposible 🧤",
-          "Hinchada enloquecida 🎉",
+          "Tor im Finale ⚽🔥",
+          "Den Pokal heben 🏆",
+          "Unmögliche Parade 🧤",
+          "Jubelnde Fans 🎉",
         ],
         colors: ["#FF8C00", "#FFD500", "#0055BF", "#008F3D"],
       },
       {
         id: "q5",
         emoji: "🎮",
-        question: "¿Ya armaste algún LEGO?",
-        options: ["Sí, varios", "Ya armé algunos", "Pocas veces", "Nunca"],
+        question: "Hast du schon mal ein LEGO gebaut?",
+        options: ["Ja, viele", "Ich habe einige gebaut", "Wenige Male", "Nie"],
         colors: ["#008F3D", "#0055BF", "#FFD500", "#E3000B"],
       },
       {
         id: "q6",
         emoji: "🎁",
-        question: "¿Qué es lo que más te atrae de esta edición de la Copa en LEGO?",
-        options: ["Exclusividad", "Diseño", "Coleccionable", "Precio"],
+        question: "Was zieht dich an dieser LEGO Cup Edition am meisten an?",
+        options: ["Exklusivität", "Design", "Sammlerstück", "Preis"],
         colors: ["#E3000B", "#0055BF", "#008F3D", "#FFD500"],
       },
     ],
@@ -32999,7 +32999,7 @@ LEGO`,
       const [e, t] = b.useState("intro"),
         [r, n] = b.useState(null),
         [s, o] = b.useState(""),
-        [i, l] = b.useState("🔎 Analizando tu respuesta…"),
+        [i, l] = b.useState("🔎 Deine Antwort wird analysiert…"),
         [a, c] = b.useState(600),
         u = x1(),
         d = e.startsWith("q") ? parseInt(e.slice(1)) - 1 : -1,
@@ -33020,7 +33020,7 @@ LEGO`,
       (b.useEffect(() => {
         if (e === "processing") {
           const m = setTimeout(
-              () => l("Você foi selecionado para a próxima etapa… ✅"),
+              () => l("Du wurdest für die nächste Stufe ausgewählt… ✅"),
               3500,
             ),
             E = setTimeout(() => t("congrats"), 5500);
@@ -33069,21 +33069,21 @@ LEGO`,
               children: [
                 h.jsx("h1", {
                   className: "text-2xl font-extrabold mb-3",
-                  children: "Desafío Quiz LEGO FIFA World Cup 2026 🏆",
+                  children: "LEGO FIFA World Cup 2026 Quiz-Challenge 🏆",
                 }),
                 h.jsxs("p", {
                   className: "text-gray-600 mb-8 text-sm",
                   children: [
-                    "Demuestra que eres un verdadero fanático y desbloquea recompensas",
+                    "Beweise, dass du ein echter Fan bist und schalte Belohnungen frei",
                     " ",
                     h.jsx("span", {
                       className: "font-bold text-red-600",
-                      children: "EXCLUSIVAS",
+                      children: "EXKLUSIV",
                     }),
                     " ",
                     h.jsx("span", {
                       className: "italic text-yellow-600",
-                      children: "edición limitada",
+                      children: "limitierte Auflage",
                     }),
                   ],
                 }),
@@ -33100,7 +33100,7 @@ LEGO`,
                   className:
                     "w-full max-w-xs py-4 rounded-2xl text-lg font-bold text-white transition-all active:scale-95",
                   style: { backgroundColor: "#E3000B" },
-                  children: "👉 EMPEZAR AHORA",
+                  children: "👉 JETZT STARTEN",
                 }),
               ],
             });
@@ -33121,7 +33121,7 @@ LEGO`,
                   children: [
                     h.jsx("p", {
                       className: "text-center text-sm text-gray-500 mb-1",
-                      children: "¡Lo estás haciendo bien! 🔥",
+                      children: "Du machst das gut! 🔥",
                     }),
                     h.jsxs("h2", {
                       className: "text-center text-lg font-bold mb-6",
@@ -33159,17 +33159,17 @@ LEGO`,
               children: [
                 h.jsx("h2", {
                   className: "text-xl font-bold mb-2",
-                  children: "Ahora es tu oportunidad 👇",
+                  children: "Jetzt ist deine Chance 👇",
                 }),
                 h.jsx("p", {
                   className: "text-gray-600 text-sm text-center mb-6",
                   children:
-                    "En pocas palabras, ¿por qué mereces participar en la edición promocional de LEGO FIFA World Cup 2026?",
+                    "Kurz gesagt: Warum verdienst du es, an der Promotionsedition von LEGO FIFA World Cup 2026 teilzunehmen?",
                 }),
                 h.jsx("textarea", {
                   value: s,
                   onChange: (m) => o(m.target.value),
-                  placeholder: "Escribe aquí...",
+                  placeholder: "Hier schreiben...",
                   className:
                     "w-full max-w-md h-32 p-4 border-2 rounded-2xl text-base resize-none focus:outline-none",
                   style: { borderColor: "#FFD500" },
@@ -33180,7 +33180,7 @@ LEGO`,
                   className:
                     "mt-4 w-full max-w-md py-4 rounded-2xl text-lg font-bold text-white transition-all active:scale-95 disabled:opacity-50",
                   style: { backgroundColor: "#E3000B" },
-                  children: "👉 ENVIAR RESPUESTA",
+                  children: "👉 ANTWORT SENDEN",
                 }),
               ],
             });
@@ -33209,12 +33209,12 @@ LEGO`,
                 }),
                 h.jsx("h2", {
                   className: "text-xl font-extrabold mb-2 text-center",
-                  children: "Analizando tus respuestas...",
+                  children: "Deine Antworten werden analysiert...",
                 }),
                 h.jsx("p", {
                   className: "text-sm text-gray-500 text-center mb-6",
                   children:
-                    "Estamos verificando si eres digno de la edición limitada 🧠",
+                    "Estamos verificando si eres digno von la limitierte Auflage 🧠",
                 }),
                 h.jsx("div", {
                   className: "w-full max-w-xs h-4 rounded-full overflow-hidden",
@@ -33246,12 +33246,12 @@ LEGO`,
                 h.jsx("div", { className: "text-6xl mb-4", children: "🎉" }),
                 h.jsx("h2", {
                   className: "text-2xl font-extrabold mb-3",
-                  children: "¡FELICITACIONES!",
+                  children: "HERZLICHEN GLÜCKWUNSCH!",
                 }),
                 h.jsx("p", {
                   className: "text-gray-600",
                   children:
-                    "Fuiste seleccionado para participar en la ronda de recompensas exclusivas",
+                    "Du wurdest ausgewählt, an der Runde der exklusiven Belohnungen teilzunehmen",
                 }),
               ],
             });
@@ -33261,11 +33261,11 @@ LEGO`,
               children: [
                 h.jsx("h2", {
                   className: "text-lg font-bold mb-1",
-                  children: "🎰 Ruleta LEGO",
+                  children: "🎰 LEGO-Glücksrad",
                 }),
                 h.jsx("p", {
                   className: "text-sm text-gray-500 mb-4",
-                  children: "¡Vamos a ver tu suerte! 🍀",
+                  children: "Mal sehen wie viel Glück du hast! 🍀",
                 }),
                 h.jsx(im, { onResult: y, shouldWin: !1 }),
               ],
@@ -33278,22 +33278,22 @@ LEGO`,
                 h.jsx("div", { className: "text-5xl mb-4", children: "😔" }),
                 h.jsx("h2", {
                   className: "text-xl font-bold mb-2",
-                  children: "Esta vez no fue...",
+                  children: "Diesmal hat es nicht geklappt...",
                 }),
                 h.jsxs("p", {
                   className: "text-gray-600 mb-2",
                   children: [
-                    "Pero tranquilo… ganaste ",
+                    "Aber keine Sorge… du hast ",
                     h.jsx("span", {
                       className: "font-bold text-red-600",
-                      children: "UNA OPORTUNIDAD MÁS",
+                      children: "EINE WEITERE CHANCE",
                     }),
                     " 🔥",
                   ],
                 }),
                 h.jsx("p", {
                   className: "text-sm text-gray-400",
-                  children: "Preparando nueva ronda...",
+                  children: "Neue Runde wird vorbereitet...",
                 }),
               ],
             });
@@ -33303,11 +33303,11 @@ LEGO`,
               children: [
                 h.jsx("h2", {
                   className: "text-lg font-bold mb-1",
-                  children: "🎰 Ruleta LEGO",
+                  children: "🎰 LEGO-Glücksrad",
                 }),
                 h.jsx("p", {
                   className: "text-sm text-gray-500 mb-4",
-                  children: "¡Tienes una oportunidad más! 🍀",
+                  children: "Du hast noch eine Chance! 🍀",
                 }),
                 h.jsx(im, { onResult: g, shouldWin: !0 }),
               ],
@@ -33325,7 +33325,7 @@ LEGO`,
                 h.jsx("h2", {
                   className: "text-2xl font-extrabold mb-6",
                   style: { color: "#333" },
-                  children: "¡Felicitaciones! ¡Fuiste seleccionado!",
+                  children: "Glückwunsch! Du wurdest ausgewählt!",
                 }),
                 h.jsxs("div", {
                   className:
@@ -33334,19 +33334,19 @@ LEGO`,
                     h.jsxs("p", {
                       className: "text-base text-gray-700 mb-1",
                       children: [
-                        "Ganaste ",
+                        "Du hast ",
                         h.jsx("span", {
                           className: "font-extrabold text-xl",
                           style: { color: "#E3000B" },
-                          children: "90% OFF",
+                          children: "90% RABATT",
                         }),
-                        " en los artículos LEGO FIFA WORLD CUP 2026 🎉",
+                        " auf LEGO FIFA WORLD CUP 2026 Artikel erhalten 🎉",
                       ],
                     }),
                     h.jsx("p", {
                       className: "text-sm text-gray-500 mb-4",
                       children:
-                        "Elige hasta 1 juguete LEGO con este descuento exclusivo",
+                        "Wähle bis zu 1 LEGO-Spielzeug mit diesem exklusiven Rabatt",
                     }),
                     h.jsxs("div", {
                       className:
@@ -33357,7 +33357,7 @@ LEGO`,
                         h.jsxs("span", {
                           className: "font-bold text-base",
                           style: { color: "#856404" },
-                          children: ["Oferta válida por: ", m, ":", E],
+                          children: ["Angebot gültig für: ", m, ":", E],
                         }),
                       ],
                     }),
@@ -33368,12 +33368,12 @@ LEGO`,
                   className:
                     "w-full max-w-sm py-5 rounded-xl text-lg font-extrabold text-white transition-all active:scale-95 shadow-lg",
                   style: { backgroundColor: "#E3000B" },
-                  children: "🛒 ELEGIR MI LEGO AHORA",
+                  children: "🛒 MEIN LEGO JETZT WÄHLEN",
                 }),
                 h.jsx("p", {
                   className:
                     "mt-4 text-xs text-gray-400 flex items-center gap-1",
-                  children: "🔒 Compra 100% segura • Edición Limitada",
+                  children: "🔒 100% sichere Bestellung • Limitierte Auflage",
                 }),
               ],
             });
